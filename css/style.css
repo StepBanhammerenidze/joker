@@ -1,0 +1,45 @@
+:root{
+    --dark-color: rgb(75, 23, 23);
+    --light-color:  rgb(109, 77, 77);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    background: var(--dark-color);
+    color: aqua;
+    width: 75%;
+    padding: 2rem;
+    margin: 0 auto;
+    text-align: center;
+    clip-path: polygon(35% 25%, 35% 25%, 35% 0%, 65% 0%, 65% 25%, 65% 25%, 65% 50%, 65% 50%, 65% 100%, 35% 100%, 35% 50%, 35% 50%);
+}
+
+main{
+    width: 75%;
+    margin: 0 auto;
+    background: var(--light-color);
+    padding: 2rem;
+    margin-top: -2rem;
+    height: 25vh;
+    
+}
+img{
+    float: right;
+    width: 300px;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+}
+
+.footre{
+    width: 75%;
+    margin: 0 auto;
+    background: var(--dark-color);
+    color: var(--light-color);
+    text-align: center;
+    padding: 3rem;
+}
